@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "Avenir Next LT W04 Bold";
+  src: url("/sites/all/themes/foodbytes/Fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/91799b0e-0ef8-446e-b274-5509412e1242.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/97fb5311-bdbd-46bc-bf69-3bcf8c744cda.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/88093bd3-b377-4278-8abe-8460dd24d0e8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/0fde1539-69df-4e3d-83ef-ae23d10dd2a5.svg#0fde1539-69df-4e3d-83ef-ae23d10dd2a5") format("svg"); }
+@font-face {
+  font-family: "Avenir Next LT W02SC Bold It";
+  src: url("/sites/all/themes/foodbytes/Fonts/a0ceccda-d623-4b77-8cd9-44fa79e46810.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/a0ceccda-d623-4b77-8cd9-44fa79e46810.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/44d48253-4873-4edb-a1df-9921af5f19e9.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/6e7bfa31-af1c-4fbe-bd78-ba0e8314a183.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/fd64ca0a-7664-4337-8793-8b1c73506ebf.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/6d75d4b0-a48c-4544-9584-52d2fcdfe34b.svg#6d75d4b0-a48c-4544-9584-52d2fcdfe34b") format("svg"); }
+@font-face {
+  font-family: "Avenir Next W01 Thin";
+  src: url("/sites/all/themes/foodbytes/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/64779e28-a3b8-4364-949c-771372a0a327.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/c6c8e4be-17eb-4475-bbfc-bb485ffde766.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/87a872d0-5af3-4231-a77c-37f41ec74662.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/91464696-717b-4eaa-adbd-0dfc5e5fd782.svg#91464696-717b-4eaa-adbd-0dfc5e5fd782") format("svg"); }
+@font-face {
+  font-family: "AvenirNextW01-ThinItali";
+  src: url("/sites/all/themes/foodbytes/Fonts/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/ec2dd1bd-4391-4b89-bf85-1a2346ea4342.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/fcf6f211-efa2-40f6-9c6b-e0ca63b6ea60.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/60fcc194-9529-4b99-9506-cdb26642656a.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/c110f1ef-6fdf-4008-bc75-b370649384a3.svg#c110f1ef-6fdf-4008-bc75-b370649384a3") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-Regular";
+  src: url("/sites/all/themes/foodbytes/Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-Italic";
+  src: url("/sites/all/themes/foodbytes/Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/18839597-afa8-4f0b-9abb-4a30262d0da8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585.svg#1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-Medium";
+  src: url("/sites/all/themes/foodbytes/Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-MediumI_721278";
+  src: url("/sites/all/themes/foodbytes/Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/3f380a53-50ea-4a62-95c5-d5d8dba03ab8.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/8344e877-560d-44d4-82eb-9822766676f9.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/b28b01d9-78c5-46c6-a30d-9a62c8f407c5.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/ed4d3c45-af64-4992-974b-c37cd12a9570.svg#ed4d3c45-af64-4992-974b-c37cd12a9570") format("svg"); }
+
+html, body {
+  font-family: "AvenirNextLTW01-Regular";
+  color: #182923; }
+
+a {
+  color: #c56949;
+  text-decoration: none; }
+  a:visited {
+    color: #c56949; }
+  a:focus {
+    color: #b12f18; }
+  a:hover {
+    color: #b12f18; }
+  a:active {
+    color: #e1b49e; }
+
+strong {
+  font-family: "Avenir Next LT W04 Bold"; }
+
+strong em, em strong {
+  font-family: "Avenir Next LT W02SC Bold It"; }
+
+em {
+  font-family: "AvenirNextLTW01-Italic"; }
+
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta, caption,
+h5, .epsilon,
+h6, .zeta {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em;
+  color: #67af9b;
+  font-family: "AvenirNextLTW01-Regular";
+	font-weight:normal;
+  text-transform: none; }
+
+h1, .alpha {
+  font-size: 25px;
+  font-size: 1.78571rem; }
+
+h2, .beta {
+  font-size: 34px;
+  font-size: 2.42857rem; }
+
+h3, .gamma {
+  font-size: 21px;
+  font-size: 1.5rem; 
+  background: transparent url(/sites/all/themes/foodbytes/images/figfigsm.png) no-repeat 5px 5px;
+	padding:10px 10px 10px 60px;
+}
+
+h4, .delta, caption {
+  font-size: 18px;
+  font-size: 1.28571rem; }
+
+h5, .epsilon {
+  font-size: 16px;
+  font-size: 1.14286rem; }
+
+h6, .zeta {
+  font-size: 16px;
+  font-size: 1.14286rem; }
+
+/**
+ * $PARAGRAPHS
+ */
+p,
+blockquote {
+  margin: 0;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.42857em; }
+
+p + img {
+  float: left;
+  margin-right: 1em; }
+
+/**
+ * $QUOTES
+ */
+blockquote {
+  margin-top: 0em;
+  padding-top: 1.42857em;
+  padding-bottom: 1.42857em;
+  margin-bottom: 1.42857em;
+  padding: 0 1.5em;
+  border-width: 0.07143em;
+  border-style: solid;
+  padding: 1.35714em;
+  border-left-width: 0.71429em;
+  border-left-style: solid;
+  padding-left: 0.71429em;
+  font-style: italic; }
+
+blockquote p {
+    margin: 0; }
+
+q {
+  font-style: italic; }
+
+
+img, media {
+  width: 100%;
+  height: auto;
+  vertical-align: top; 
+  padding-bottom:20px;}
+
+
+div {
+	float:left;
+	width:50%;
+	margin:20px 25%;
+}

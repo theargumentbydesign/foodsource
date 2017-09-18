@@ -1,0 +1,95 @@
+/*******************************************************************************
+ * Off canvas portion of styling for the Off Canvas layout.
+ ******************************************************************************/
+
+@import "compass";
+
+
+#off-canvas {
+	width:90%;
+	background:$green100;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:-90%;
+	z-index:10000;
+	transition:left 300ms; 
+}
+
+
+					@include breakpoint($tab) {
+					#off-canvas {
+						width:60%;
+						left:-60%;
+					}
+					}
+ 
+
+
+.l-header #off-canvas.is-visible  {
+	background:$green100;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	transition:left 300ms;
+	}
+	
+	
+
+
+.l-header #off-canvas.is-visible #off-canvas-show  {
+	display:none;
+	@include opacity(0);
+	transition:  opacity 3s;
+}
+.l-header #off-canvas #off-canvas-show:before  {
+	content: " + ";
+	colot:#fff;
+}
+
+
+.l-header #off-canvas #off-canvas-show  {
+	display:block;
+	position:fixed;
+	left:0;
+	top:120px;
+	transition:  left 300ms;
+	transition:  opacity 1200ms;
+	text-indent:-5000px;
+	background:$green50 url(/sites/all/themes/foodbytes/images/menu.png) no-repeat;
+	width:100px;
+	height:60px;
+	@include opacity(1);
+	border:1px white solid;
+	border-left:none;
+}
+
+.l-header #off-canvas #off-canvas-show:hover  { 
+background-color:$green80;
+}
+
+.l-header #off-canvas #off-canvas-hide  {
+	display:none;
+	@include opacity(0);
+	transition: opacity 3s;
+}
+.l-header #off-canvas.is-visible #off-canvas-hide  {
+	display:block;
+	position:absolute;
+	top:47px;
+	right:0;
+	margin:0;
+	display:block;
+	transition:  left 300ms;
+	text-indent:-5000px;
+	background:$green50 url(/sites/all/themes/foodbytes/images/menuclose.png) no-repeat;
+	width:100px;
+	height:60px;
+	@include opacity(1);
+	border:1px white solid;
+	border-right:none;
+}
+.l-header #off-canvas #off-canvas-hide:hover  { 
+background-color:$green80;
+}

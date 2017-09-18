@@ -1,0 +1,98 @@
+/* CSS Document */
+
+.l-region--navigation {
+	padding:80px 10px 10px 10px ;
+	
+	}
+
+.l-region--navigation h2 {
+	margin:0 0 20px 30px;
+}
+
+.l-region--navigation .sf-vertical {
+	width:55%;
+	float:left;	
+} 
+
+.l-region--navigation .sf-vertical li  {
+	width:100%;
+	float:none;
+}
+
+
+
+.l-region--navigation .sf-vertical li a {
+	display:block;
+	padding:10px 35px 10px 60px;
+	text-indent:-30px;
+	width:75%;
+	color:white;
+
+}
+
+.l-region--navigation .sf-vertical li > ul {
+	padding:5px;
+	background:$green80;
+	border:1px solid #ffffff;
+	width:55% !important;
+	float:left;
+	margin-left:60%;
+}
+
+.l-region--navigation .sf-vertical li > ul li:first-child {
+	display:none;
+}
+
+
+.l-region--navigation .sf-vertical li > ul li a {
+	padding:5px 0 7px 40px;
+	width:100%;
+	line-height:1.1em;
+}
+
+
+.l-region--navigation .sf-vertical li#menu-528-1 > ul,
+.l-region--navigation .sf-vertical li#menu-532-1 > ul,
+.l-region--navigation .sf-vertical li#menu-534-1 > ul,
+.l-region--navigation .sf-vertical li#menu-536-1 > ul,
+.l-region--navigation .sf-vertical li#menu-538-1 > ul {
+	bottom:0;
+	width:55% !important;
+}
+
+
+.l-region--navigation .sf-vertical li#menu-538-1 > ul { /* chapter 10 */
+	top:-245px;
+}
+
+.l-region--navigation .sf-vertical li#menu-536-1 > ul { /* chapter 9 */
+	top:-335px;
+}
+.l-region--navigation .sf-vertical li#menu-534-1 > ul {/* chapter 8 */
+	top:-295px;
+}
+.l-region--navigation .sf-vertical li#menu-532-1 > ul {/* chapter 7 */
+	top:-355px;
+}
+.l-region--navigation .sf-vertical li#menu-528-1 > ul {/* chapter 6 */
+	top:-270px;
+}
+
+
+
+.l-region--navigation .sf-menu ul li {
+	width:80%;
+}
+
+.l-region--navigation ul li  ul.menu,
+.l-region--navigation ul li  ul.menu li.leaf {
+	list-style-type:none;
+	list-style-image:none;	 
+	}
+
+
+
+.l-region--navigation ul li a:hover  {
+	color:$red80;
+}
+

@@ -1,0 +1,232 @@
+/* CSS Document */
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+@import "../../variables/_colors.scss";
+@import "../../variables/grid.scss";
+@import "../../base/off-canvas.scss";
+
+
+
+.l-content {
+	padding-top:50px;
+	@include grid-span(6,3);
+}
+.l-region--sidebar-second {
+		@include grid-span(3,9);
+
+	}
+
+.l-region--sidebar-second  .panel-pane {
+	padding:15px;
+}
+
+.field--name-field-sub-section {
+	padding:20px 0 30px 0;
+}
+.field--name-field-sub-section h3 {
+	padding:0 0 30px 0;
+}
+
+
+
+/* CHAPTER PAGE NODES TOP LEVEL */
+
+
+.l-content {
+	padding-top:50px;
+	@include grid-span(12,1);
+}
+.l-region--sidebar-second {
+		@include grid-span(12,1);
+	}
+
+	@include breakpoint($tab) {
+	.l-content {
+	padding-top:50px;
+	@include grid-span(7,2);
+}
+.l-region--sidebar-second {
+		@include grid-span(3,9);
+	}
+	}
+	@include breakpoint($desk) {
+	.l-content {
+	padding-top:50px;
+	@include grid-span(7,2);
+}
+.l-region--sidebar-second {
+		@include grid-span(3,9);
+	}
+	}
+
+
+
+.page-node-1 .l-region--sidebar-second  .panel-pane,
+.page-node-3 .l-region--sidebar-second  .panel-pane  {
+	padding:0 15px;
+	@include border-radius(5px)	
+}
+
+.page-node-1 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-one-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+
+.page-node-3 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-two-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+
+.page-node-4 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-three-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+
+.page-node-5 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-five-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+.page-node-6 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-six-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+
+.page-node-7 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-four-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+ 
+.page-node-8 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-seven-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+
+.page-node-9 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-eight-bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+
+.page-node-10 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-nine-bg.jpg) center center no-repeat;
+	background-size:cover;
+}
+
+.page-node-11 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-ten-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+
+.page-node-12 {
+	background:url(/sites/all/themes/foodbytes/images/chapters/backgrounds/ch-ele-bg.jpg) center center no-repeat;
+	background-attachment:fixed;
+}
+
+
+
+.page-node-1 .l-branding,
+.page-node-3 .l-branding,
+.page-node-4 .l-branding {
+	background:none;  
+}
+
+.page-node-1 .l-main {
+}
+
+.page-node-1  h2,
+.page-node-3  h2,
+.page-node-4  h2,
+.page-node-5  h2,
+.page-node-6 h2,
+.page-node-7  h2,
+.page-node-8  h2,
+.page-node-9  h2,
+.page-node-10  h2,
+.page-node-11 h2
+.page-node-12 h2 {
+	color:#fff !important;
+}
+
+
+.page-node-1  p,
+.page-node-3  p,
+.page-node-4  p,
+.page-node-5  p,
+.page-node-6  p,
+.page-node-7  p,
+.page-node-8  p,
+.page-node-9  p,
+.page-node-10  p,
+.page-node-11 p,
+.page-node-12 p
+ {
+	color:$green80;
+	font-family:"AvenirNextLTW01-Medium";
+	font-size:1.3em;
+	line-height:1.5em;
+	display:block;
+	padding:15px;
+	@include border-radius(5px);
+	background:rgba(255,255,255,.750);
+}
+
+.node-type-book .l-footer p {
+	color:white;
+	font-family:"AvenirNextLTW01-Medium";
+	line-height:1.5em;
+	display:inherit;
+	padding:20px;
+	@include border-radius(0);
+	background:none;
+}
+
+/* SIDEBAR CHAPTER MENU */
+
+.node-type-book  .l-region--sidebar-second {
+	background:transparent;
+}
+.node-type-book .l-region--sidebar-second {
+	padding-bottom:2em;
+}
+
+.pane-node-book-children ul.menu,
+.pane-node-book-children ul.menu li {
+	list-style:none;
+	list-style-image:none;
+}
+
+.pane-node-book-children ul li  {
+	@include border-radius(5px);
+	margin-bottom:10px; 
+  	padding:10px;
+	background:rgba(255,255,255,.90);
+font-family:"AvenirNextLTW01-Regular";
+	font-size:1.2em;
+  }
+.pane-node-book-children ul li:hover  {
+	background:rgba(255,255,255,1);
+}
+ .pane-node-book-children ul li:hover a  {
+	color:$green100;
+}
+
+ .pane-node-book-children ul li a  {
+	display:block;
+	padding-left: 22px ;
+  	text-indent: -22px ;
+	color:$green80;
+  }
+
+
+.page-node-2 .l-header, 
+.page-node-13 .l-header, 
+.page-node-14 .l-header,
+.page-node-15 .l-header, 
+.page-node-16 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/ch-onehead.jpg) no-repeat center center;
+}
+ 
+

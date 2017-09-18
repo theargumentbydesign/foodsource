@@ -1,0 +1,322 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+ /* GET DOWN! BY MATTHEW JAMES TAYLOR TO KEEP THE FOOTER AT THE FOOT EVEN ON A SHORT PAGE */
+ 
+							 html {
+								height:100%;
+							 }
+							 body {
+								height:100%;
+								color:$green80;
+						 }
+							 .l-page {
+								position:relative;
+								min-height:100%;
+							 }
+							 
+							 .l-branding {
+								 	@include grid-span(12,1);
+									clear:both;
+									 background-color:rgba($green100, .85);
+								}
+
+											 
+							 .l-main {
+									padding-bottom:400px;
+							 }
+							
+							 .l-footer {
+								 position:absolute;
+								 bottom:0;
+								 width:100%;
+								 height:400px;
+								 background-color:rgba($green100, .85);
+								 color:#fff;
+							 }
+ 
+ 									 .l-footer p {
+										font-family:"AvenirNextLTW01-Regular";
+										padding:20px 0 5px 20px;
+									 }
+
+.form-item label, .form-actions label {
+	font-weight:normal;
+	padding-bottom:5px;
+}
+textarea {
+	font-family:"AvenirNextLTW01-Regular";	
+	font-size:1rem;
+}
+.form-text {
+	padding:5px;
+	font-family:"AvenirNextLTW01-Regular";	
+	width:95%;
+}
+
+.ctools-collapsible-container .ctools-toggle {
+	background-position: 7px 14px;
+}
+
+
+.messages--status {
+	background-color:$green10;
+	border:$green25;
+}
+ /* SLOGAN */ 
+ 
+ 
+ .pane-page-slogan {
+	 padding:10px 0 0 0;
+	text-align:center;
+	font-size:1em;
+	color:white; 
+	font-family:"Avenir Next W01 Thin";
+}
+
+					@include breakpoint($tab) {
+						.pane-page-slogan {
+							font-size:1.9em;
+						}
+						}
+					@include breakpoint($desk) {
+						.pane-page-slogan {
+							font-size:2.5em;
+						}
+						}
+ 
+ 
+ /* TOP MENU OF CONTRIBUTORS ETC */
+ 
+
+
+ .pane-menu-menu-header-menu {
+ 	float:left; 
+	width:100%;
+	 padding:0;
+	 color:#fff;
+ }
+ 
+  .pane-menu-menu-header-menu .menu {
+  	width:100%;
+  }
+
+   .pane-menu-menu-header-menu .menu .leaf { 
+   list-style-type:none;
+	list-style-image:none;
+   }
+   
+   .pane-menu-menu-header-menu ul {
+   	display:block;
+	float:left;
+	margin:0 auto;
+   }
+  .pane-menu-menu-header-menu ul li a  {
+	  	 color:#fff;
+		 display:block;
+	  padding:5px 0;
+ }
+ 
+  .pane-menu-menu-header-menu ul li.first  {
+	  margin-left:0;
+  }
+    .pane-menu-menu-header-menu ul li.last  {
+	  margin-right:0;
+  }
+  .pane-menu-menu-header-menu ul li  {
+	  float:left; 
+	  margin:1%;
+	  text-align:center;
+	 width:98%;
+ }
+						 @include breakpoint($tab) {
+						
+						   .pane-menu-menu-header-menu ul li  {
+							  float:left; 
+							  margin:0 1% 0 0;
+							  text-align:center;
+							 width:31%;
+						 }
+							 .pane-menu-menu-header-menu ul li a  {
+								  padding:10px 0;
+							 } 
+						 }
+						  @include breakpoint($desk) {
+						
+						   .pane-menu-menu-header-menu ul li  {
+							  float:left; 
+							  margin:0 1% 0 0;
+							  text-align:center;
+							 width:13.2857143%;
+						 }
+							 .pane-menu-menu-header-menu ul li a  {
+								  padding:20px 0;
+							 } 
+}
+ 
+  .pane-menu-menu-header-menu ul li:hover  {
+	 background-color:rgba($green50, .85);
+ }
+
+
+.l-content {
+	padding-top:50px;
+	@include grid-span(12,1);
+}
+.l-region--sidebar-second {
+		@include grid-span(12,1);
+	}
+
+							
+							
+							
+														
+							@include breakpoint($tab) {
+							.l-content {
+								padding-top:50px;
+								@include grid-span(6,2);
+							}
+							.l-region--sidebar-second {
+									@include grid-span(4,8);
+								}
+							}
+						@include breakpoint($desk) {
+							.l-content {
+								padding-top:50px;
+								@include grid-span(6,3);
+							}
+							.l-region--sidebar-second {
+									@include grid-span(3,9);
+								}
+							}	
+							
+.pane-page-logo {
+	text-align:center;
+}
+
+#logo img {
+	width:98%;
+	margin: 20px 0;
+} 
+
+							@include breakpoint($tab) {
+								#logo {
+									width:70%;
+									padding-top:20px;
+								} 
+								#logo img {
+									max-width:700px;
+								} 
+							}
+						@include breakpoint($desk) {
+								#logo {
+									width:80%;
+									padding-top:20px;
+								} 
+								#logo img {
+									max-width:800px;
+								} 
+							}
+
+
+h1,h2,h3,h4,h5,h6 {
+	text-transform:none;
+}
+
+.l-content p, .l-content li, .node--colorbox p, .node--colorbox li {
+	font-size:1.2em;
+	line-height:1.3em;
+	margin-bottom: 20px;
+}  
+.l-content li ul li,  .node--colorbox li ul li  {
+	font-size:1em;
+}
+
+.page-node- .node--colorbox h2.node__title, .page-node- .node--colorbox h2 {
+	color:$green50 !important;
+}
+
+sub {
+	font-size:0.8em;
+	vertical-align:sub;
+}
+ 
+.l-content .pane-node-body {
+	padding-top:2em;
+}
+
+.l-region--sidebar-second {
+	margin-top:50px;
+	@include border-radius(10px);
+	background:$green10;
+}
+ 
+.pane-node-book-nav {
+	position:relative;
+	padding:10px;
+}
+
+
+.l-footer div.footerlogo {
+	width:48%;
+	float:left;
+	margin:1%;
+	text-align:center;
+}
+
+.l-footer .pane-custom {
+	@include grid-span(12,1)
+}
+.l-footer .pane-block-1 {
+	@include grid-span(12,1)
+}
+
+				@include breakpoint($tab) {
+		.l-footer div.footerlogo {
+			width:31%;
+			margin:1%;
+		}
+			.l-footer .pane-custom {
+			@include grid-span(8,1)
+		}
+		.l-footer .pane-block-1 {
+			@include grid-span(4,9)
+		}
+
+	}
+		@include breakpoint($desk) {
+.l-footer div.footerlogo {
+	width:11%;
+	margin:1%;
+}
+	}
+
+.l-footer #mc_embed_signup {
+	background-color: transparent;
+}
+
+.l-footer #mc_embed_signup h2 {
+	font-weight:normal;
+}
+
+

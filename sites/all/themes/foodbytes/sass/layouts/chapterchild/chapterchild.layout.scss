@@ -1,0 +1,530 @@
+/* CSS Document */
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+@import "../../variables/_colors.scss";
+@import "../../variables/_grid.scss";
+@import "../../abstractions/_typography.scss";
+
+
+
+
+.l-region--header #logo img {
+	max-width:500px;
+}
+
+
+.l-content {
+	padding-top:50px;
+	@include grid-span(6,3);
+}
+.l-region--sidebar-second {
+		@include grid-span(3,9);
+	}
+
+.l-region--sidebar-second  .panel-pane {
+	padding:15px;
+}
+.l-region--sidebar-second  .pane-node header {
+	display:none;
+}
+
+.l-region--sidebar-second  .pane-node .pane-title {
+	padding-top:10px;
+}
+
+.l-region--sidebar-second .pane-title.ctools-collapsible-handle {
+	background:$green10;
+	padding:10px;
+}
+
+.l-region--sidebar-second .webform-client-form {
+	padding:10px;
+}
+
+.l-region--sidebar-second .pane-title.ctools-collapsible-handle:hover {
+	background:$green25;	
+}
+
+.l-region--sidebar-second .ctools-collapsible-container {
+	background:$green10;
+}
+
+.l-content .pane-node-body {
+	padding-top:0;
+}
+
+
+.node-type-book .l-footer p {
+	color:white;
+	font-family:"AvenirNextLTW01-Medium";
+	line-height:1.5em;
+	display:inherit;
+	padding:15px 0;
+	@include border-radius(0);
+	background:none;
+}
+
+
+.field--name-body  h4 {
+  @include font-size(21px);	
+  padding-bottom:20px;
+}
+
+
+
+/* SIDEBAR CHAPTER MENU */
+
+.page-node-22 .l-header,
+.page-node-23 .l-header,
+.page-node-24 .l-header,
+.page-node-25 .l-header,
+.page-node-26 .l-header,
+.page-node-27 .l-header,
+.page-node-28 .l-header,
+.page-node-48 .l-header,
+.page-node-49 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-onehead.jpg) no-repeat center center;
+}
+
+
+.page-node-29 .l-header,
+.page-node-30 .l-header,
+.page-node-31 .l-header,
+.page-node-32 .l-header,
+.page-node-33 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-twohead.jpg) no-repeat center center;
+} 
+
+ 
+.page-node-34 .l-header,
+.page-node-35 .l-header,
+.page-node-36 .l-header,
+.page-node-37 .l-header,
+.page-node-38 .l-header,
+.page-node-39 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-threehead.jpg) no-repeat center center; 
+}
+
+ 
+.page-node-40 .l-header,
+.page-node-41 .l-header,
+.page-node-42 .l-header,
+.page-node-43 .l-header,
+.page-node-44 .l-header,
+.page-node-45 .l-header,
+.page-node-46 .l-header,
+.page-node-47 .l-header,
+.page-node-48 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-fourhead.jpg) no-repeat center center; 
+}
+
+.page-node-70 .l-header,
+.page-node-71 .l-header,
+.page-node-72 .l-header,
+.page-node-73 .l-header,
+.page-node-74 .l-header,
+.page-node-75 .l-header,
+.page-node-76 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-fivehead.jpg) no-repeat center center; 
+}
+
+.page-node-50 .l-header,
+.page-node-51 .l-header,
+.page-node-52 .l-header,
+.page-node-53 .l-header,
+.page-node-54 .l-header,
+.page-node-55 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-sixhead.jpg) no-repeat center center; 
+}
+
+.page-node-56 .l-header,
+.page-node-57 .l-header,
+.page-node-58 .l-header,
+.page-node-59 .l-header,
+.page-node-60 .l-header,
+.page-node-61 .l-header,
+.page-node-62 .l-header,
+.page-node-63 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-sevenhead.jpg) no-repeat center center; 
+} 
+
+.page-node-64 .l-header,
+.page-node-65 .l-header,
+.page-node-66 .l-header,
+.page-node-67 .l-header,
+.page-node-68 .l-header,
+.page-node-69 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-eighthead.jpg) no-repeat center center; 
+} 
+
+.page-node-77 .l-header,
+.page-node-78 .l-header,
+.page-node-79 .l-header,
+.page-node-80 .l-header,
+.page-node-81 .l-header,
+.page-node-82 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-ninehead.jpg) no-repeat center center; 
+} 
+.page-node-77 .l-header,
+.page-node-78 .l-header,
+.page-node-79 .l-header,
+.page-node-80 .l-header,
+.page-node-81 .l-header,
+.page-node-82 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-ninehead.jpg) no-repeat center center; 
+} 
+
+.page-node-88 .l-header,
+.page-node-89 .l-header,
+.page-node-90 .l-header,
+.page-node-91 .l-header,
+.page-node-92 .l-header {
+	background:url(/sites/all/themes/foodbytes/images/chapters/headers/ch-tenhead.jpg) no-repeat center center; 
+} 
+
+
+/* SPECIFIC NODE STUFF */
+
+.pane-node-title h2 {
+	margin-bottom:1em; 
+}
+
+
+/**
+ * QUICK REFERENCE BOXES
+ */
+ 
+ 
+ .qrt .red {
+	color:$red100;
+font-family:"AvenirNextLTW01-Medium";
+}
+ .qrt .green {
+	color:$green50;
+font-family:"AvenirNextLTW01-Medium";
+}
+ 
+ 
+ .l-content .field__item .qrb {
+	background-color:$green10;
+	padding:5%;
+	width:90%;
+	float:left;
+}
+.l-content .field__item .qrb ul li {
+	margin-bottom:0.25em;
+}
+
+table.qrb {
+	background-color:$green10;
+}
+
+.l-content .field__item table ul li {
+	margin-bottom:0.25em;
+	font-family:"Avenir Next LT W04 Bold";
+}
+
+.l-content .field__item table ul li > ul li {
+	margin-bottom:0.1em; 
+	font-family:"AvenirNextLTW01-Regular";
+	font-size:0.8em;
+}
+
+.l-content .field__item table ul  li > ul {
+	margin:0 0 0 15px; 
+	
+}
+						.field__item div div.green25 {
+							background-color:$green25;
+							padding:5%;
+							float:left;
+							width:35%;
+							border:1px solid #ffffff;
+							line-height:1.3em;
+							text-align:left;
+						}
+						
+						.field__item div div.green25 ul li {
+							text-align:left;
+							margin-bottom:0.5em;
+							font-size:1em;
+						}
+						
+						.field__item div table div.green25 {
+							background-color:$green25;
+							padding:9%;
+							float:left;
+							width:78%;
+							border:1px solid #ffffff;
+							line-height:1.3em;
+						}
+						
+.field__item div div.green50,
+.field__item div table div.green50 {
+	background-color:$green50;
+	padding:10%;
+	margin:20px 0;
+	float:left;
+	width:80%;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	line-height:1.3em;
+}
+
+
+/* COLLAPSING FIELDS */
+
+.field__item a, .field__item a:visited {
+	color:$red100;
+}
+
+.field__item h3 {
+	cursor:pointer;
+	padding:10px 10px 10px 60px;
+	background:$green10 url(/sites/all/themes/foodbytes/images/chapters/collapse-arrow.png) no-repeat top left;
+}
+
+.field__item h3:hover {
+	background:$green25 url(/sites/all/themes/foodbytes/images/chapters/collapse-arrow.png) no-repeat  top left;	
+}
+
+.field__item h3.expanded {
+	cursor:pointer;
+	padding:10px 10px 10px 60px;
+	background:$green10 url(/sites/all/themes/foodbytes/images/chapters/collapse-arrow.png) no-repeat bottom left;
+}
+
+/* AND IN THE SIDEBAR */
+
+.l-region--sidebar-second .field__item h3 {
+	cursor:pointer;
+	padding:5px 5px 5px 30px;
+	background: url(/sites/all/themes/foodbytes/images/openclosesidebar.png) no-repeat left 8px;;
+}
+.l-region--sidebar-second .field__item h3 strong {
+	font-size:0.666em !important;
+}
+
+.l-region--sidebar-second .field__item h3:hover {
+	background: url(/sites/all/themes/foodbytes/images/openclosesidebar.png) no-repeat  left 8px;	
+}
+
+.l-region--sidebar-second .field__item h3.expanded {
+	cursor:pointer;
+	padding:5px 5px 5px 30px;
+	background: url(/sites/all/themes/foodbytes/images/openclosesidebar.png) no-repeat left -177px;
+}
+
+
+
+
+.field--type-field-sections h4 {
+	background:none;
+	border-bottom:2px solid $green10;
+	padding-bottom:1em;
+	margin:1em 0;
+	font-family:"AvenirNextLTW01-Medium";
+}
+
+.field--name-body .field__item div {
+	border:none;
+	padding:0;
+	margin:0 0 20px 0;
+	}
+
+.field__item div {
+	border:1px solid $green10;
+	padding:20px;
+	margin-bottom:20px;
+}
+
+.field__item div div {
+	border:none;
+	padding:0;
+}
+
+
+
+.field--name-field-sub-section {
+	padding:20px 0 30px 0;
+}
+.field--name-field-sub-section h3 {
+	padding:0 0 30px 0;
+}
+ 
+
+.field__item div h3 {
+	background: transparent url(/sites/all/themes/foodbytes/images/figfigsm.png) no-repeat 5px 5px;
+}
+.field__item div img {
+	width:100%;
+}
+
+.field__item ul  {
+	margin:0;
+	padding:5px 0 0 0;
+}
+.field__item ul li {
+	list-style:square;
+	line-height:1.2em;
+	margin:0 0 5px 15px;
+	padding:0 0 10px 15px;
+}
+.field__item ul li  li {
+	list-style:circle;
+	margin: 0 0 0 15px ;
+	padding:5px 0 5px 15px;
+}
+
+.l-region--sidebar-second {
+	background:none;
+}
+
+.l-region--sidebar-second h2 {
+	font-size:1.2em;
+	font-family:"AvenirNextLTW01-Medium";
+	padding-bottom:1em;
+}
+
+
+.l-region--sidebar-second ol li {
+	list-style:decimal;
+	margin-left:15px;
+	padding:0 0 15px 15px;
+}
+
+.node-type-chapter-child-page .pane-page-tabs {
+	float:right;
+}
+
+.node-type-chapter-child-page .pane-node-title {
+	clear:left;
+}
+
+/* NAVIGATION FOR BOOK PAGES */
+
+#booknavtop .pane-node-book-nav {
+	padding:10px 0 20px 10px;
+}
+
+.pane-node-book-nav {
+	padding:10px 0 45px;
+	float:left;
+}
+
+ .book-navigation  {
+ 	float:left;
+	margin-right:30px;
+ }
+ 
+ .book-navigation a {
+ 	color:#ffffff;
+ }
+  .book-navigation a:hover,   .book-navigation a:visited {
+ 	color:#ffffff;
+ }
+
+/* AT THE TOP */
+
+#chome {
+	float:left;
+	width:30px;
+	height:30px;
+	padding:10px 0 20px 10px;	
+	margin-right:15px;
+}
+#chome p a {
+	text-indent:-5000px;
+	float:left;
+	width:20px;
+	height:20px;
+	padding:5px;
+	background:$green25;
+}
+#chome p a:hover {
+	background:$green50;
+	
+}
+#booknavtop .book-navigation a {
+	display:block;
+	text-indent:-5000px;
+	width:20px;
+	height:20px;
+	padding:5px;
+}
+
+/* AND THE REST */
+
+#nextchapter  {
+	display:block;
+	background:$green25 url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px -45px;
+	float:right;
+	margin:10px 0 0 15px;
+	padding:5px 5px 5px 25px;
+}
+
+#nextchapter:hover {
+	background:$green50 url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px -45px;
+
+}
+#nextchapter p  {
+	margin:0;
+}
+
+#nextchapter p a:hover  {
+	color:#fff;
+}
+
+#nextchapter p a {
+	color:$green100;
+}
+
+
+.book-navigation .page-up {
+	display:block;
+	background:$green25 url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px 5px;
+	float:left;
+	margin-right:15px;
+	padding:8px 5px 8px 25px;
+}
+#booknavtop .book-navigation .page-up {
+background-position:5px 5px;
+}
+
+
+.book-navigation .page-up:hover {
+		background-color:$green50;
+}
+.book-navigation .page-next {
+	display:block;
+	background:$green50 url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px -45px;
+	float:left;
+	padding:8px 5px 8px 25px;
+} 
+
+#booknavtop .book-navigation .page-next {
+background-position:5px -45px;
+}
+
+.book-navigation .page-next:hover {
+		background-color:$green100;
+}
+.book-navigation .page-previous {
+	display:block;
+	background:$green50 url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat  2px -95px;
+	float:left;
+	margin-right:15px;
+	padding:8px 5px 8px 25px;
+}
+#booknavtop .book-navigation .page-previous {
+background-position:5px -95px;
+}
+
+
+.book-navigation .page-previous:hover {
+		background-color:$green100;
+}

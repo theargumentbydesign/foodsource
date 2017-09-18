@@ -1,0 +1,170 @@
+/* CSS Document */
+// Import external libraries. 
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+@import "../../variables/_colors.scss";
+@import "../../variables/_grid.scss";
+@import "../../abstractions/_typography.scss";
+
+
+
+ .l-page {
+	background:url(../../../images/chapters/home-bg.jpg) no-repeat center center;
+	background-attachment:fixed;
+}
+
+.l-region--header {
+	@include grid-span(12,1);
+	margin-top:0;
+
+}
+												
+							@include breakpoint($tab) {
+							.l-region--header {
+								@include grid-span(10,2);
+								margin-top:190px;
+							}
+							}
+											
+							@include breakpoint($desk) {
+							.l-region--header {
+								@include grid-span(8,3);
+								margin-top:95px;
+	
+							}
+							}
+							
+
+.l-region--header .pane-page-logo {
+	width:60%;
+	float:left;
+}
+
+.l-region--header .pane-custom.pane-2 {
+	width:30%;
+	float:right;
+	color:#fff;
+	line-height:1.3em;
+	border-left:1px solid #fff;
+	padding-left:2%
+}
+
+
+.l-region--header .pane-page-slogan {
+	width:100%;
+	float:left;
+}
+
+.l-main {
+	padding-top:40px;
+}
+
+.l-content {
+	@include grid-span(12,1);
+	padding:0 0 50px 0;
+}
+.l-content .pane-chapters  {
+	@include grid-span(12,1);
+}
+
+.l-content .pane-chapters .view-header {
+	padding:25px 0;
+	background:rgba(255,255,255,1);
+	@include grid-span(12,1);
+	margin-bottom:25px;
+}
+.l-content .pane-chapters .view-content  {
+	@include grid-span(12,1);
+}
+
+.l-content .pane-chapters .view-header article h2 {
+	text-align:center;
+	margin:20px 0 40px;
+}
+
+.l-content .pane-chapters .view-header article p {
+	text-align:justify;
+}
+
+							@include breakpoint($tab) {
+							.l-content .pane-chapters .view-header article {
+								@include grid-span(10,2);
+							}
+							.l-content .pane-chapters .view-content .views-row{
+								@include grid-span(10,2);
+								clear:left;
+								margin-bottom:5em;
+							}
+							}
+											
+							@include breakpoint($desk) {
+							.l-content .pane-chapters .view-header article {
+								@include grid-span(8,3);
+							}
+							.l-content .pane-chapters .view-content .views-row {
+								@include grid-span(8,3);
+								clear:left;
+								margin-bottom:5em;
+							}
+							}
+							
+	
+
+								
+.l-content .view-chapters .views-field-title a {
+	color:$green100;
+	font-family:"Avenir Next W01 Thin";
+	border-bottom:none;
+	transition: color ease-in 500ms; 
+	display:block;
+	padding:25px 25px 0;
+}
+
+.l-content .view-chapters .views-field-title a:hover {
+	color:$green80;
+}
+
+/* HOMEPAGE CHAPTER HEADINGS VIEW */
+
+.l-content  .view-chapters .views-field-title {
+	@include font-size(25px);
+}
+
+.l-content  .view-chapters .views-field-body {
+	padding:25px;
+}
+
+
+					@include breakpoint($tab) {
+						.l-content  .view-chapters .views-field-title {
+						@include font-size(30px);
+						}
+						}
+							
+							@include breakpoint($desk) {
+							.l-content  .view-chapters .views-field-title {
+								@include font-size(30px);
+								}
+							}
+
+.front .view-chapters {
+	padding:5px;
+}
+.front .view-chapters .views-row {
+	float:left;
+	margin:0.5em 0;
+	width:100%;
+	background-position:-20px -10px;
+	transition: background-color ease-in 250ms;
+	background-color: rgba(#fff, .85);
+	}
+ 
+
+.front .view-chapters .views-row:hover {
+	background-color: rgba(#fff, 1);
+} 
+
+

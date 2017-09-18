@@ -1,0 +1,818 @@
+/* SASS Document */
+/* Header graphics for homepage and chapters */
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=7123b552-531a-44c2-ad29-70084cdb8542");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/variables\/_grid\.scss}line{font-family:\0000312}}
+.l-content {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 16.94915%;
+  clear: none; }
+
+/**
+ * $ARROW
+ */
+/**
+ * $HLIST
+ */
+/**
+ * $ISLAND
+ */
+/* CSS Document */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_forms\.scss}line{font-family:\000034}}
+select:focus,
+input:focus,
+textarea:focus {
+  -moz-box-shadow: 0 0 4px 1px rgba(215, 153, 131, 0.3);
+  -webkit-box-shadow: 0 0 4px 1px rgba(215, 153, 131, 0.3);
+  box-shadow: 0 0 4px 1px rgba(215, 153, 131, 0.3);
+  outline: 1px solid #d79983; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_forms\.scss}line{font-family:\0000310}}
+fieldset {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 9px 1em 18px 1em;
+  border-color: #ccc; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_forms\.scss}line{font-family:\0000318}}
+legend {
+  font-size: 18px;
+  font-size: 1.28571rem;
+  padding: 0 0.8em;
+  color: #aaa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_forms\.scss}line{font-family:\0000324}}
+.page-node-edit #overlay textarea.form-textarea {
+  min-height: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top; }
+
+/* CSS Document */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\000033}}
+.l-region--navigation {
+  padding: 80px 10px 10px 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\000038}}
+.l-region--navigation h2 {
+  margin: 0 0 20px 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000312}}
+.l-region--navigation .sf-vertical {
+  width: 55%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000317}}
+.l-region--navigation .sf-vertical li {
+  width: 100%;
+  float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000324}}
+.l-region--navigation .sf-vertical li a {
+  display: block;
+  padding: 10px 35px 10px 60px;
+  text-indent: -30px;
+  width: 75%;
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000333}}
+.l-region--navigation .sf-vertical li > ul {
+  padding: 5px;
+  background: #3c6259;
+  border: 1px solid #ffffff;
+  width: 55% !important;
+  float: left;
+  margin-left: 60%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000342}}
+.l-region--navigation .sf-vertical li > ul li:first-child {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000347}}
+.l-region--navigation .sf-vertical li > ul li a {
+  padding: 5px 0 7px 40px;
+  width: 100%;
+  line-height: 1.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000354}}
+.l-region--navigation .sf-vertical li#menu-528-1 > ul,
+.l-region--navigation .sf-vertical li#menu-532-1 > ul,
+.l-region--navigation .sf-vertical li#menu-534-1 > ul,
+.l-region--navigation .sf-vertical li#menu-536-1 > ul,
+.l-region--navigation .sf-vertical li#menu-538-1 > ul {
+  bottom: 0;
+  width: 55% !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000364}}
+.l-region--navigation .sf-vertical li#menu-538-1 > ul {
+  /* chapter 10 */
+  top: -245px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000368}}
+.l-region--navigation .sf-vertical li#menu-536-1 > ul {
+  /* chapter 9 */
+  top: -335px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000371}}
+.l-region--navigation .sf-vertical li#menu-534-1 > ul {
+  /* chapter 8 */
+  top: -295px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000374}}
+.l-region--navigation .sf-vertical li#menu-532-1 > ul {
+  /* chapter 7 */
+  top: -355px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000377}}
+.l-region--navigation .sf-vertical li#menu-528-1 > ul {
+  /* chapter 6 */
+  top: -270px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000383}}
+.l-region--navigation .sf-menu ul li {
+  width: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000387}}
+.l-region--navigation ul li ul.menu,
+.l-region--navigation ul li ul.menu li.leaf {
+  list-style-type: none;
+  list-style-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_navigation\.scss}line{font-family:\0000395}}
+.l-region--navigation ul li a:hover {
+  color: #c56949; }
+
+/*******************************************************************************
+ * Off canvas portion of styling for the Off Canvas layout.
+ ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\000038}}
+#off-canvas {
+  width: 90%;
+  background: #182923;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -90%;
+  z-index: 10000;
+  transition: left 300ms; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000321}}
+  #off-canvas {
+    width: 60%;
+    left: -60%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000329}}
+.l-header #off-canvas.is-visible {
+  background: #182923;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: left 300ms; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000341}}
+.l-header #off-canvas.is-visible #off-canvas-show {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: opacity 3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000346}}
+.l-header #off-canvas #off-canvas-show:before {
+  content: " + ";
+  colot: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000352}}
+.l-header #off-canvas #off-canvas-show {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 120px;
+  transition: left 300ms;
+  transition: opacity 1200ms;
+  text-indent: -5000px;
+  background: #67af9b url(/sites/all/themes/foodbytes/images/menu.png) no-repeat;
+  width: 100px;
+  height: 60px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  border: 1px white solid;
+  border-left: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000368}}
+.l-header #off-canvas #off-canvas-show:hover {
+  background-color: #3c6259; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000372}}
+.l-header #off-canvas #off-canvas-hide {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: opacity 3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000377}}
+.l-header #off-canvas.is-visible #off-canvas-hide {
+  display: block;
+  position: absolute;
+  top: 47px;
+  right: 0;
+  margin: 0;
+  display: block;
+  transition: left 300ms;
+  text-indent: -5000px;
+  background: #67af9b url(/sites/all/themes/foodbytes/images/menuclose.png) no-repeat;
+  width: 100px;
+  height: 60px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  border: 1px white solid;
+  border-right: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_off-canvas\.scss}line{font-family:\0000393}}
+.l-header #off-canvas #off-canvas-hide:hover {
+  background-color: #3c6259; }
+
+/**
+ * $TABLES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_tables\.scss}line{font-family:\000034}}
+table {
+  width: 100%;
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_tables\.scss}line{font-family:\000039}}
+th {
+  padding: 0.5em 1em;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_tables\.scss}line{font-family:\0000313}}
+  th a,
+  th a.active {
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_tables\.scss}line{font-family:\0000317}}
+    th a img,
+    th a.active img {
+      margin: 2px 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_tables\.scss}line{font-family:\0000322}}
+td {
+  padding: 0.5em 1em; }
+
+/**
+ * $FONT-FACE
+ */
+@font-face {
+  font-family: "Avenir Next LT W04 Bold";
+  src: url("/sites/all/themes/foodbytes/Fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/91799b0e-0ef8-446e-b274-5509412e1242.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/97fb5311-bdbd-46bc-bf69-3bcf8c744cda.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/88093bd3-b377-4278-8abe-8460dd24d0e8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/0fde1539-69df-4e3d-83ef-ae23d10dd2a5.svg#0fde1539-69df-4e3d-83ef-ae23d10dd2a5") format("svg"); }
+@font-face {
+  font-family: "Avenir Next LT W02SC Bold It";
+  src: url("/sites/all/themes/foodbytes/Fonts/a0ceccda-d623-4b77-8cd9-44fa79e46810.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/a0ceccda-d623-4b77-8cd9-44fa79e46810.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/44d48253-4873-4edb-a1df-9921af5f19e9.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/6e7bfa31-af1c-4fbe-bd78-ba0e8314a183.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/fd64ca0a-7664-4337-8793-8b1c73506ebf.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/6d75d4b0-a48c-4544-9584-52d2fcdfe34b.svg#6d75d4b0-a48c-4544-9584-52d2fcdfe34b") format("svg"); }
+@font-face {
+  font-family: "Avenir Next W01 Thin";
+  src: url("/sites/all/themes/foodbytes/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/64779e28-a3b8-4364-949c-771372a0a327.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/c6c8e4be-17eb-4475-bbfc-bb485ffde766.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/87a872d0-5af3-4231-a77c-37f41ec74662.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/91464696-717b-4eaa-adbd-0dfc5e5fd782.svg#91464696-717b-4eaa-adbd-0dfc5e5fd782") format("svg"); }
+@font-face {
+  font-family: "AvenirNextW01-ThinItali";
+  src: url("/sites/all/themes/foodbytes/Fonts/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/ec2dd1bd-4391-4b89-bf85-1a2346ea4342.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/fcf6f211-efa2-40f6-9c6b-e0ca63b6ea60.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/60fcc194-9529-4b99-9506-cdb26642656a.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/c110f1ef-6fdf-4008-bc75-b370649384a3.svg#c110f1ef-6fdf-4008-bc75-b370649384a3") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-Regular";
+  src: url("/sites/all/themes/foodbytes/Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-Italic";
+  src: url("/sites/all/themes/foodbytes/Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/18839597-afa8-4f0b-9abb-4a30262d0da8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585.svg#1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-Medium";
+  src: url("/sites/all/themes/foodbytes/Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg"); }
+@font-face {
+  font-family: "AvenirNextLTW01-MediumI_721278";
+  src: url("/sites/all/themes/foodbytes/Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/3f380a53-50ea-4a62-95c5-d5d8dba03ab8.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/8344e877-560d-44d4-82eb-9822766676f9.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/b28b01d9-78c5-46c6-a30d-9a62c8f407c5.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/ed4d3c45-af64-4992-974b-c37cd12a9570.svg#ed4d3c45-af64-4992-974b-c37cd12a9570") format("svg"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.3\.0\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
+html {
+  font-size: 87.5%;
+  line-height: 1.42857em; }
+
+/**
+ * $BASE-TYPOGRAPHY
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000355}}
+html, body {
+  font-family: "AvenirNextLTW01-Regular";
+  color: #182923; }
+
+/**
+ * $LINKS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000363}}
+a {
+  color: #c56949;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.3\.0\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000318}}
+  a:visited {
+    color: #c56949; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.3\.0\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000321}}
+  a:focus {
+    color: #b12f18; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.3\.0\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000324}}
+  a:hover {
+    color: #b12f18; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/2\.3\.0\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/links\/_link-colors\.scss}line{font-family:\0000327}}
+  a:active {
+    color: #e1b49e; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000368}}
+strong {
+  font-family: "Avenir Next LT W04 Bold"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000369}}
+strong em, em strong {
+  font-family: "Avenir Next LT W02SC Bold It"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000370}}
+em {
+  font-family: "AvenirNextLTW01-Italic"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000372}}
+.node--colorbox h2 {
+  margin-bottom: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000376}}
+.node--colorbox a {
+  color: #b12f18;
+  font-family: "Avenir Next LT W04 Bold"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000381}}
+.node--colorbox li {
+  list-style: outside;
+  list-style-type: circle; }
+
+/**
+ * $HEADINGS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\0000388}}
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta, caption,
+h5, .epsilon,
+h6, .zeta {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em;
+  color: #67af9b;
+  font-family: "AvenirNextLTW01-Regular";
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003100}}
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003105}}
+a:hover {
+  color: #c56949; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003109}}
+h1, .alpha {
+  font-size: 25px;
+  font-size: 1.78571rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003112}}
+h2, .beta {
+  font-size: 34px;
+  font-size: 2.42857rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003115}}
+h3, .gamma {
+  font-size: 21px;
+  font-size: 1.5rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003118}}
+h4, .delta, caption {
+  font-size: 18px;
+  font-size: 1.28571rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003121}}
+h5, .epsilon {
+  font-size: 16px;
+  font-size: 1.14286rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003124}}
+h6, .zeta {
+  font-size: 16px;
+  font-size: 1.14286rem; }
+
+/**
+ * $PARAGRAPHS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003131}}
+p,
+blockquote {
+  margin: 0;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.42857em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003136}}
+p + img {
+  float: left;
+  margin-right: 1em; }
+
+/**
+ * $QUOTES
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003144}}
+blockquote {
+  margin-top: 0em;
+  padding-top: 1.42857em;
+  padding-bottom: 1.42857em;
+  margin-bottom: 1.42857em;
+  padding: 0 1.5em;
+  border-width: 0.07143em;
+  border-style: solid;
+  padding: 1.35714em;
+  border-left-width: 0.71429em;
+  border-left-style: solid;
+  padding-left: 0.71429em;
+  font-style: italic; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003153}}
+  blockquote p {
+    margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003158}}
+q {
+  font-style: italic; }
+
+/**
+ * $MARKS
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_typography\.scss}line{font-family:\00003165}}
+mark,
+.marker {
+  padding: 0.1em 0.5em;
+  color: #fff;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  text-transform: capitalize;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+/* SIDEBAR CHAPTER MENU VIEW */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_views\.scss}line{font-family:\000034}}
+.l-region--sidebar-second .views-field-title {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: #d6e7e1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/base\/_views\.scss}line{font-family:\0000311}}
+.l-region--sidebar-second .views-field-title a {
+  display: block;
+  padding-left: 22px;
+  text-indent: -22px; }
+
+/* No files to import found in components/**\/* */
+/* GET DOWN! BY MATTHEW JAMES TAYLOR TO KEEP THE FOOTER AT THE FOOT EVEN ON A SHORT PAGE */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000326}}
+html {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000329}}
+body {
+  height: 100%;
+  color: #3c6259; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000333}}
+.l-page {
+  position: relative;
+  min-height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000338}}
+.l-branding {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  clear: both;
+  background-color: rgba(24, 41, 35, 0.85); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000345}}
+.l-main {
+  padding-bottom: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000349}}
+.l-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background-color: rgba(24, 41, 35, 0.85);
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000358}}
+.l-footer p {
+  font-family: "AvenirNextLTW01-Regular";
+  padding: 20px 0 5px 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000363}}
+.form-item label, .form-actions label {
+  font-weight: normal;
+  padding-bottom: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000367}}
+textarea {
+  font-family: "AvenirNextLTW01-Regular";
+  font-size: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000371}}
+.form-text {
+  padding: 5px;
+  font-family: "AvenirNextLTW01-Regular";
+  width: 95%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000377}}
+.ctools-collapsible-container .ctools-toggle {
+  background-position: 7px 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000382}}
+.messages--status {
+  background-color: #e6ece5;
+  border: #d6e7e1; }
+
+/* SLOGAN */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000389}}
+.pane-page-slogan {
+  padding: 10px 0 0 0;
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  font-family: "Avenir Next W01 Thin"; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\0000398}}
+  .pane-page-slogan {
+    font-size: 1.9em; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003103}}
+  .pane-page-slogan {
+    font-size: 2.5em; } }
+/* TOP MENU OF CONTRIBUTORS ETC */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003113}}
+.pane-menu-menu-header-menu {
+  float: left;
+  width: 100%;
+  padding: 0;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003120}}
+.pane-menu-menu-header-menu .menu {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003124}}
+.pane-menu-menu-header-menu .menu .leaf {
+  list-style-type: none;
+  list-style-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003129}}
+.pane-menu-menu-header-menu ul {
+  display: block;
+  float: left;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003134}}
+.pane-menu-menu-header-menu ul li a {
+  color: #fff;
+  display: block;
+  padding: 5px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003140}}
+.pane-menu-menu-header-menu ul li.first {
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003143}}
+.pane-menu-menu-header-menu ul li.last {
+  margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003146}}
+.pane-menu-menu-header-menu ul li {
+  float: left;
+  margin: 1%;
+  text-align: center;
+  width: 98%; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003154}}
+  .pane-menu-menu-header-menu ul li {
+    float: left;
+    margin: 0 1% 0 0;
+    text-align: center;
+    width: 31%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003160}}
+  .pane-menu-menu-header-menu ul li a {
+    padding: 10px 0; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003166}}
+  .pane-menu-menu-header-menu ul li {
+    float: left;
+    margin: 0 1% 0 0;
+    text-align: center;
+    width: 13.2857143%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003172}}
+  .pane-menu-menu-header-menu ul li a {
+    padding: 20px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003177}}
+.pane-menu-menu-header-menu ul li:hover {
+  background-color: rgba(103, 175, 155, 0.85); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003182}}
+.l-content {
+  padding-top: 50px;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003186}}
+.l-region--sidebar-second {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003195}}
+  .l-content {
+    padding-top: 50px;
+    width: 49.15254%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003199}}
+  .l-region--sidebar-second {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 59.32203%;
+    clear: none; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003204}}
+  .l-content {
+    padding-top: 50px;
+    width: 49.15254%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.94915%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003208}}
+  .l-region--sidebar-second {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 67.79661%;
+    clear: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003213}}
+.pane-page-logo {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003217}}
+#logo img {
+  width: 98%;
+  margin: 20px 0; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003223}}
+  #logo {
+    width: 70%;
+    padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003227}}
+  #logo img {
+    max-width: 700px; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003232}}
+  #logo {
+    width: 80%;
+    padding-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003236}}
+  #logo img {
+    max-width: 800px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003242}}
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003246}}
+.l-content p, .l-content li, .node--colorbox p, .node--colorbox li {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  margin-bottom: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003251}}
+.l-content li ul li, .node--colorbox li ul li {
+  font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003255}}
+.page-node- .node--colorbox h2.node__title, .page-node- .node--colorbox h2 {
+  color: #67af9b !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003259}}
+sub {
+  font-size: 0.8em;
+  vertical-align: sub; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003264}}
+.l-content .pane-node-body {
+  padding-top: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003268}}
+.l-region--sidebar-second {
+  margin-top: 50px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #e6ece5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003274}}
+.pane-node-book-nav {
+  position: relative;
+  padding: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003280}}
+.l-footer div.footerlogo {
+  width: 48%;
+  float: left;
+  margin: 1%;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003287}}
+.l-footer .pane-custom {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003290}}
+.l-footer .pane-block-1 {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003295}}
+  .l-footer div.footerlogo {
+    width: 31%;
+    margin: 1%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003299}}
+  .l-footer .pane-custom {
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003302}}
+  .l-footer .pane-block-1 {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003308}}
+  .l-footer div.footerlogo {
+    width: 11%;
+    margin: 1%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003314}}
+.l-footer #mc_embed_signup {
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.styles\.scss}line{font-family:\00003318}}
+.l-footer #mc_embed_signup h2 {
+  font-weight: normal; }
