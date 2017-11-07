@@ -70,7 +70,7 @@
  *   'password' => 'password',
  *   'host' => 'localhost',
  *   'port' => 3306,
-v *   'prefix' => 'myprefix_',
+ *   'prefix' => 'myprefix_',
  *   'collation' => 'utf8_general_ci',
  * );
  * @endcode
@@ -217,8 +217,8 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'c1foodsource_db',
-      'username' => 'c1foodsource',
+      'database' => 'foodsource',
+      'username' => 'foodsource',
       'password' => 'mIaXkcLG#6',
       'host' => '127.0.0.1',
       'port' => '3306',
@@ -280,7 +280,7 @@ $drupal_hash_salt = 'OS1_khFlrN4a5GWFWMmKT8qktI16tPFvLSg8FwTRyBw';
  * It is not allowed to have a trailing slash; Drupal will add it
  * for you.
  */
-# $base_url = 'http://www.example.com';  // NO trailing slash!
+ $base_url = 'https://fcrn-foodsource.ouce.ox.ac.uk';  // NO trailing slash!
 
 /**
  * PHP settings:
