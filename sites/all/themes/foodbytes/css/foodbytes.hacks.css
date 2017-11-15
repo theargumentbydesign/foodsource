@@ -1,9 +1,8 @@
 @media all and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web7\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.hacks\.scss}line{font-family:\000033}}
   #toolbar, #admin-menu {
     display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web7\/web\/sites\/all\/themes\/foodbytes\/sass\/foodbytes\.hacks\.scss}line{font-family:\000038}}
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
+
+/*# sourceMappingURL=foodbytes.hacks.css.map */

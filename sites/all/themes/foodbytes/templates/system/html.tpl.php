@@ -57,6 +57,7 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/7123b552-531a-44c2-ad29-70084cdb8542.css"/>
   <?php print $scripts; ?>
 </head>
 <body<?php print $attributes;?>>

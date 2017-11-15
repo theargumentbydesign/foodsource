@@ -1,0 +1,194 @@
+/* CSS Document */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/variables\/_grid\.scss}line{font-family:\0000312}}
+.l-content {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 16.94915%;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000314}}
+.l-page {
+  background: url(../../../images/chapters/home-bg.jpg) no-repeat center center;
+  background-attachment: fixed; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000319}}
+.l-region--header {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  margin-top: 0; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000326}}
+  .l-region--header {
+    width: 83.05085%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none;
+    margin-top: 190px; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000333}}
+  .l-region--header {
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.94915%;
+    clear: none;
+    margin-top: 95px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000341}}
+.l-region--header .pane-page-logo {
+  width: 60%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000346}}
+.l-region--header .pane-custom.pane-2 {
+  width: 30%;
+  float: right;
+  color: #fff;
+  line-height: 1.3em;
+  border-left: 1px solid #fff;
+  padding-left: 2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000356}}
+.l-region--header .pane-page-slogan {
+  width: 100%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000361}}
+.l-main {
+  padding-top: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000365}}
+.l-content {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  padding: 0 0 50px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000369}}
+.l-content .pane-chapters {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000373}}
+.l-content .pane-chapters .view-header {
+  padding: 25px 0;
+  background: white;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+  margin-bottom: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000379}}
+.l-content .pane-chapters .view-content {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000383}}
+.l-content .pane-chapters .view-header article h2 {
+  text-align: center;
+  margin: 20px 0 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000388}}
+.l-content .pane-chapters .view-header article p {
+  text-align: justify; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000393}}
+  .l-content .pane-chapters .view-header article {
+    width: 83.05085%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\0000396}}
+  .l-content .pane-chapters .view-content .views-row {
+    width: 83.05085%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none;
+    clear: left;
+    margin-bottom: 5em; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003104}}
+  .l-content .pane-chapters .view-header article {
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.94915%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003107}}
+  .l-content .pane-chapters .view-content .views-row {
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.94915%;
+    clear: none;
+    clear: left;
+    margin-bottom: 5em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003117}}
+.l-content .view-chapters .views-field-title a {
+  color: #182923;
+  font-family: "Avenir Next W01 Thin";
+  border-bottom: none;
+  transition: color ease-in 500ms;
+  display: block;
+  padding: 25px 25px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003126}}
+.l-content .view-chapters .views-field-title a:hover {
+  color: #3c6259; }
+
+/* HOMEPAGE CHAPTER HEADINGS VIEW */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003132}}
+.l-content .view-chapters .views-field-title {
+  font-size: 25px;
+  font-size: 1.5625rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003136}}
+.l-content .view-chapters .views-field-body {
+  padding: 25px; }
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003142}}
+  .l-content .view-chapters .views-field-title {
+    font-size: 30px;
+    font-size: 1.875rem; } }
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003148}}
+  .l-content .view-chapters .views-field-title {
+    font-size: 30px;
+    font-size: 1.875rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003153}}
+.front .view-chapters {
+  padding: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003156}}
+.front .view-chapters .views-row {
+  float: left;
+  margin: 0.5em 0;
+  width: 100%;
+  background-position: -20px -10px;
+  transition: background-color ease-in 250ms;
+  background-color: rgba(255, 255, 255, 0.85); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/homepage\/homepage\.layout\.scss}line{font-family:\00003166}}
+.front .view-chapters .views-row:hover {
+  background-color: white; }

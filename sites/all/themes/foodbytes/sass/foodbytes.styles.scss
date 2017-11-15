@@ -1,9 +1,3 @@
-// Import external libraries.
-@import "compass";
-@import "breakpoint";
-@import "singularitygs";
-@import "toolkit";
-
 // Import variables, abstractions, base styles and components using globbing.
 //
 // Globbing will always import files alphabetically. Optimally, all your
@@ -16,10 +10,36 @@
 // directly. Variables-, function- or mixin providing partials should never
 // output any styles themselves: Importing them multiple times to resolve
 // dependencies shouldn't be a problem.
-@import "variables/**/*";
-@import "abstractions/**/*";
-@import "base/**/*";
-@import "components/**/*";
+
+@import "breakpoint-sass";
+@import "compass-mixins";
+@import "singularitygs";
+
+@import "variables/_colors.scss";
+@import "variables/_graphics.scss";
+@import "variables/_grid.scss";
+@import "variables/_legacy.scss";
+@import "variables/_typography.scss";
+
+@import "abstractions/_arrow.scss";
+@import "abstractions/_grid.scss";
+@import "abstractions/_hlist.scss";
+@import "abstractions/_island.scss";
+@import "abstractions/_typography.scss";
+@import "abstractions/_visibility.scss";
+
+@import "base/_chapters.scss";
+@import "base/_forms.scss";
+@import "base/_media.scss";
+@import "base/_navigation.scss";
+@import "base/_off-canvas.scss";
+@import "base/_off-canvas.scss";
+@import "base/_tables.scss";
+@import "base/_typography.scss";
+@import "base/_views.scss";
+
+
+
 
  /* GET DOWN! BY MATTHEW JAMES TAYLOR TO KEEP THE FOOTER AT THE FOOT EVEN ON A SHORT PAGE */
  
