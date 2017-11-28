@@ -5,7 +5,7 @@
 %islet {
   display: block;
   @include margin-trailer(1);
-  @include clearfix(true);
+  @include clearfix();
 
   & > :last-child,
   & > :last-child {

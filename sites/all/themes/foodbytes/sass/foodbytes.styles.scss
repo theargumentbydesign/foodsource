@@ -11,32 +11,20 @@
 // output any styles themselves: Importing them multiple times to resolve
 // dependencies shouldn't be a problem.
 
-@import "breakpoint-sass";
-@import "compass-mixins";
+//@import "breakpoint-sass";
+//@import "compass-mixins";
+//@import "singularitygs";
+
+
+@import "compass";
+@import "breakpoint";
 @import "singularitygs";
+@import "../node_modules/compass-mixins/lib/_compass.scss";
 
-@import "variables/_colors.scss";
-@import "variables/_graphics.scss";
-@import "variables/_grid.scss";
-@import "variables/_legacy.scss";
-@import "variables/_typography.scss";
-
-@import "abstractions/_arrow.scss";
-@import "abstractions/_grid.scss";
-@import "abstractions/_hlist.scss";
-@import "abstractions/_island.scss";
-@import "abstractions/_typography.scss";
-@import "abstractions/_visibility.scss";
-
-@import "base/_chapters.scss";
-@import "base/_forms.scss";
-@import "base/_media.scss";
-@import "base/_navigation.scss";
-@import "base/_off-canvas.scss";
-@import "base/_off-canvas.scss";
-@import "base/_tables.scss";
-@import "base/_typography.scss";
-@import "base/_views.scss";
+@import "variables/**/*.scss";
+@import "abstractions/**/*.scss";
+@import "base/**/*.scss";
+@import "components/**/*.scss"; 
 
 
 
@@ -58,7 +46,7 @@
 							 .l-branding {
 								 	@include grid-span(12,1);
 									clear:both;
-									 background-color:rgba($green100, .85);
+									 background-color:rgba($green50, .85);
 								}
 
 											 
@@ -71,7 +59,7 @@
 								 bottom:0;
 								 width:100%;
 								 height:400px;
-								 background-color:rgba($green100, .85);
+								 background-color:rgba($green80, .85);
 								 color:#fff;
 							 }
  
@@ -282,7 +270,11 @@ sub {
 }
  
 .l-content .pane-node-body {
+	float:left;
+	padding:15px;
 	padding-top:2em;
+	@include border-radius(5px);
+	background:rgba(255,255,255,.750);
 }
 
 .l-region--sidebar-second {

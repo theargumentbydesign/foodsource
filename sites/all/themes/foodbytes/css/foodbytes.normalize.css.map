@@ -1,0 +1,1 @@
+{"version":3,"sources":["variables/_graphics.scss"],"names":[],"mappings":"AAAA,mBAAmB;AACnB,+CAA+C","file":"foodbytes.normalize.css","sourcesContent":["/* SASS Document */\n/* Header graphics for homepage and chapters */\n\n$homegraphic: 'url(../../images/homegraphichead.jpg)' no-repeat center top;\n"]}

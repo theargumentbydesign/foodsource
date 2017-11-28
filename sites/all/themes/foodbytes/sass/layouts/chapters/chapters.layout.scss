@@ -1,14 +1,43 @@
 /* CSS Document */
 // Import external libraries.
+
 @import "compass";
 @import "breakpoint";
 @import "singularitygs";
-@import "toolkit";
+@import "./node_modules/compass-mixins/lib/_compass.scss";
+
+/*@import "./sass/variables/**/*.scss";
+//@import "./sass/abstractions/**/*.scss";
+//@import "./sass/base/**/*.scss";
+//@import "./sass/components/**/*.scss";
+*/
 
 @import "../../variables/_colors.scss";
-@import "../../variables/grid.scss";
-@import "../../base/off-canvas.scss";
+@import "../../variables/_grid.scss";
+@import "../../variables/_graphics.scss";
+@import "../../variables/_legacy.scss";
+@import "../../variables/_typography.scss";
 
+@import "../../abstractions/_arrow.scss";
+@import "../../abstractions/_grid.scss";
+@import "../../abstractions/_hlist.scss";
+@import "../../abstractions/_island.scss";
+@import "../../abstractions/_typography.scss";
+@import "../../abstractions/_visibility.scss";
+
+@import "../../base/_chapters.scss";
+@import "../../base/_forms.scss";
+@import "../../base/_media.scss";
+@import "../../base/_navigation.scss";
+@import "../../base/_off-canvas.scss";
+@import "../../base/_tables.scss";
+@import "../../base/_typography.scss";
+@import "../../base/_views.scss";
+
+
+#logo img {
+	width:20%;
+}
 
 
 .l-content {
@@ -20,7 +49,7 @@
 
 	}
 
-.l-region--sidebar-second  .panel-pane {
+.l-region--sidebar-second .panel-pane {
 	padding:15px;
 }
 
@@ -125,52 +154,66 @@
 	background-attachment:fixed;
 }
 
-
-
-.page-node-1 .l-branding,
-.page-node-3 .l-branding,
-.page-node-4 .l-branding {
-	background:none;  
+.pane-node-title  h2 {
+	color:white;
 }
 
-.page-node-1 .l-main {
+ .l-content h2.pane-title {
+	font-size:1rem;
+	 font-size:1em;
+	 display:inline;
+	 padding-right:10px;
+	 color:white;
+	 float:left;
 }
 
-.page-node-1  h2,
-.page-node-3  h2,
-.page-node-4  h2,
-.page-node-5  h2,
-.page-node-6 h2,
-.page-node-7  h2,
-.page-node-8  h2,
-.page-node-9  h2,
-.page-node-10  h2,
-.page-node-11 h2
-.page-node-12 h2 {
-	color:#fff !important;
+.pane-node-field-written,
+.pane-node-field-contrib,
+.pane-node-field-edit,
+.pane-node-field-review,
+.pane-node-field-fund {
+	float:left;
+	padding:10px 0 0;
+	margin-bottom:5px;
+	width:100%;
+	color:#fff;
 }
 
+.pane-node-field-fund {
+	margin-bottom:30px;
+}
 
-.page-node-1  p,
-.page-node-3  p,
-.page-node-4  p,
-.page-node-5  p,
-.page-node-6  p,
-.page-node-7  p,
-.page-node-8  p,
-.page-node-9  p,
-.page-node-10  p,
-.page-node-11 p,
-.page-node-12 p
- {
-	color:$green80;
-	font-family:"AvenirNextLTW01-Medium";
-	font-size:1.3em;
-	line-height:1.5em;
-	display:block;
-	padding:15px;
+.pane-node-field-key-points,
+.pane-node-body {
+	float:left;
+	padding:5%;
 	@include border-radius(5px);
 	background:rgba(255,255,255,.750);
+	width:90%;
+	margin:20px 0;
+}
+
+ .l-content .pane-node-body h2.pane-title,
+.l-content .pane-node-field-key-points h2.pane-title  {
+	font-size:2em;
+	 color:$green100;
+	 float:none;
+	margin-bottom:20px;
+}
+.pane-node-body p,
+.pane-node-body li {
+	color:$green80;
+	font-family:"AvenirNextLTW01-Regular";
+	font-size:1.1em;
+	line-height:1.4em;	 
+}
+.l-content ul,
+.l-content li {
+	list-style: circle;
+	list-style-type: circle;	
+}
+.l-content li {
+	margin-left:22px;
 }
 
 .node-type-book .l-footer p {
@@ -202,8 +245,7 @@
 	@include border-radius(5px);
 	margin-bottom:10px; 
   	padding:10px;
-	background:rgba(255,255,255,.90);
-font-family:"AvenirNextLTW01-Regular";
+	background:rgba(255,255,255,.90);font-family:"AvenirNextLTW01-Regular";
 	font-size:1.2em;
   }
 .pane-node-book-children ul li:hover  {

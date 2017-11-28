@@ -1,17 +1,431 @@
 /* CSS Document */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/variables\/_grid\.scss}line{font-family:\0000312}}
-.l-content {
-  width: 66.10169%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 16.94915%;
-  clear: none; }
+/*
+//
+//
+//
+*/
+/* SASS Document */
+/* Header graphics for homepage and chapters */
+/**
+ * $ARROW
+ */
+/**
+ * $HLIST
+ */
+/**
+ * $ISLAND
+ */
+/* CSS Document */
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=7123b552-531a-44c2-ad29-70084cdb8542");
+select:focus,
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 4px 1px rgba(215, 153, 131, 0.3);
+  outline: 1px solid #d79983; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000315}}
+fieldset {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 9px 1em 18px 1em;
+  border-color: #ccc; }
+
+legend {
+  font-size: 18px;
+  font-size: 1.28571rem;
+  padding: 0 0.8em;
+  color: #aaa; }
+
+.page-node-edit #overlay textarea.form-textarea {
+  min-height: 500px; }
+
+img, media {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top; }
+
+/* CSS Document */
+.l-region--navigation {
+  padding: 80px 10px 10px 10px; }
+
+.l-region--navigation h2 {
+  margin: 0 0 20px 30px; }
+
+.l-region--navigation .sf-vertical {
+  width: 55%;
+  float: left; }
+
+.l-region--navigation .sf-vertical li {
+  width: 100%;
+  float: none; }
+
+.l-region--navigation .sf-vertical li a {
+  display: block;
+  padding: 10px 35px 10px 60px;
+  text-indent: -30px;
+  width: 75%;
+  color: white; }
+
+.l-region--navigation .sf-vertical li > ul {
+  padding: 5px;
+  background: #3c6259;
+  border: 1px solid #ffffff;
+  width: 55% !important;
+  float: left;
+  margin-left: 60%; }
+
+.l-region--navigation .sf-vertical li > ul li:first-child {
+  display: none; }
+
+.l-region--navigation .sf-vertical li > ul li a {
+  padding: 5px 0 7px 40px;
+  width: 100%;
+  line-height: 1.1em; }
+
+.l-region--navigation .sf-vertical li#menu-528-1 > ul,
+.l-region--navigation .sf-vertical li#menu-532-1 > ul,
+.l-region--navigation .sf-vertical li#menu-534-1 > ul,
+.l-region--navigation .sf-vertical li#menu-536-1 > ul,
+.l-region--navigation .sf-vertical li#menu-538-1 > ul {
+  bottom: 0;
+  width: 55% !important; }
+
+.l-region--navigation .sf-vertical li#menu-538-1 > ul {
+  /* chapter 10 */
+  top: -245px; }
+
+.l-region--navigation .sf-vertical li#menu-536-1 > ul {
+  /* chapter 9 */
+  top: -335px; }
+
+.l-region--navigation .sf-vertical li#menu-534-1 > ul {
+  /* chapter 8 */
+  top: -295px; }
+
+.l-region--navigation .sf-vertical li#menu-532-1 > ul {
+  /* chapter 7 */
+  top: -355px; }
+
+.l-region--navigation .sf-vertical li#menu-528-1 > ul {
+  /* chapter 6 */
+  top: -270px; }
+
+.l-region--navigation .sf-menu ul li {
+  width: 80%; }
+
+.l-region--navigation ul li ul.menu,
+.l-region--navigation ul li ul.menu li.leaf {
+  list-style-type: none;
+  list-style-image: none; }
+
+.l-region--navigation ul li a:hover {
+  color: #c56949; }
+
+/*******************************************************************************
+ * Off canvas portion of styling for the Off Canvas layout.
+ ******************************************************************************/
+#off-canvas {
+  width: 90%;
+  background: #182923;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -90%;
+  z-index: 10000;
+  transition: left 300ms; }
+
+@media (min-width: 44em) {
+  #off-canvas {
+    width: 60%;
+    left: -60%; } }
+
+.l-header #off-canvas.is-visible {
+  background: #182923;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: left 300ms; }
+
+.l-header #off-canvas.is-visible #off-canvas-show {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: opacity 3s; }
+
+.l-header #off-canvas #off-canvas-show:before {
+  content: " + ";
+  colot: #fff; }
+
+.l-header #off-canvas #off-canvas-show {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 120px;
+  transition: left 300ms;
+  transition: opacity 1200ms;
+  text-indent: -5000px;
+  background: #67af9b url(/sites/all/themes/foodbytes/images/menu.png) no-repeat;
+  width: 100px;
+  height: 60px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  border: 1px white solid;
+  border-left: none; }
+
+.l-header #off-canvas #off-canvas-show:hover {
+  background-color: #3c6259; }
+
+.l-header #off-canvas #off-canvas-hide {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: opacity 3s; }
+
+.l-header #off-canvas.is-visible #off-canvas-hide {
+  display: block;
+  position: absolute;
+  top: 47px;
+  right: 0;
+  margin: 0;
+  display: block;
+  transition: left 300ms;
+  text-indent: -5000px;
+  background: #67af9b url(/sites/all/themes/foodbytes/images/menuclose.png) no-repeat;
+  width: 100px;
+  height: 60px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  border: 1px white solid;
+  border-right: none; }
+
+.l-header #off-canvas #off-canvas-hide:hover {
+  background-color: #3c6259; }
+
+/**
+ * $TABLES
+ */
+table {
+  width: 100%;
+  margin-bottom: 18px; }
+
+th {
+  padding: 0.5em 1em;
+  color: #fff; }
+  th a,
+  th a.active {
+    color: #fff; }
+    th a img,
+    th a.active img {
+      margin: 2px 3px; }
+
+td {
+  padding: 0.5em 1em; }
+
+/**
+ * $FONT-FACE
+ */
+@font-face {
+  font-family: "Avenir Next LT W04 Bold";
+  src: url("/sites/all/themes/foodbytes/Fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/6ff8ab07-ccb4-4a91-8f0f-2bd4367902e8.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/91799b0e-0ef8-446e-b274-5509412e1242.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/97fb5311-bdbd-46bc-bf69-3bcf8c744cda.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/88093bd3-b377-4278-8abe-8460dd24d0e8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/0fde1539-69df-4e3d-83ef-ae23d10dd2a5.svg#0fde1539-69df-4e3d-83ef-ae23d10dd2a5") format("svg"); }
+
+@font-face {
+  font-family: "Avenir Next LT W02SC Bold It";
+  src: url("/sites/all/themes/foodbytes/Fonts/a0ceccda-d623-4b77-8cd9-44fa79e46810.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/a0ceccda-d623-4b77-8cd9-44fa79e46810.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/44d48253-4873-4edb-a1df-9921af5f19e9.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/6e7bfa31-af1c-4fbe-bd78-ba0e8314a183.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/fd64ca0a-7664-4337-8793-8b1c73506ebf.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/6d75d4b0-a48c-4544-9584-52d2fcdfe34b.svg#6d75d4b0-a48c-4544-9584-52d2fcdfe34b") format("svg"); }
+
+@font-face {
+  font-family: "Avenir Next W01 Thin";
+  src: url("/sites/all/themes/foodbytes/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/42c793cf-df5a-4e07-bf3e-37de54df02b6.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/64779e28-a3b8-4364-949c-771372a0a327.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/c6c8e4be-17eb-4475-bbfc-bb485ffde766.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/87a872d0-5af3-4231-a77c-37f41ec74662.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/91464696-717b-4eaa-adbd-0dfc5e5fd782.svg#91464696-717b-4eaa-adbd-0dfc5e5fd782") format("svg"); }
+
+@font-face {
+  font-family: "AvenirNextW01-ThinItali";
+  src: url("/sites/all/themes/foodbytes/Fonts/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/41537dd7-434f-4f85-b9d9-a88b160bc18d.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/ec2dd1bd-4391-4b89-bf85-1a2346ea4342.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/fcf6f211-efa2-40f6-9c6b-e0ca63b6ea60.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/60fcc194-9529-4b99-9506-cdb26642656a.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/c110f1ef-6fdf-4008-bc75-b370649384a3.svg#c110f1ef-6fdf-4008-bc75-b370649384a3") format("svg"); }
+
+@font-face {
+  font-family: "AvenirNextLTW01-Regular";
+  src: url("/sites/all/themes/foodbytes/Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg"); }
+
+@font-face {
+  font-family: "AvenirNextLTW01-Italic";
+  src: url("/sites/all/themes/foodbytes/Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/d1fddef1-d940-4904-8f6c-17e809462301.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/18839597-afa8-4f0b-9abb-4a30262d0da8.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585.svg#1de7e6f4-9d4d-47e7-ab23-7d5cf10ab585") format("svg"); }
+
+@font-face {
+  font-family: "AvenirNextLTW01-Medium";
+  src: url("/sites/all/themes/foodbytes/Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg"); }
+
+@font-face {
+  font-family: "AvenirNextLTW01-MediumI_721278";
+  src: url("/sites/all/themes/foodbytes/Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix");
+  src: url("/sites/all/themes/foodbytes/Fonts/77a9cdce-ea6a-4f94-95df-e6a54555545e.eot?#iefix") format("eot"), url("/sites/all/themes/foodbytes/Fonts/3f380a53-50ea-4a62-95c5-d5d8dba03ab8.woff2") format("woff2"), url("/sites/all/themes/foodbytes/Fonts/8344e877-560d-44d4-82eb-9822766676f9.woff") format("woff"), url("/sites/all/themes/foodbytes/Fonts/b28b01d9-78c5-46c6-a30d-9a62c8f407c5.ttf") format("truetype"), url("/sites/all/themes/foodbytes/Fonts/ed4d3c45-af64-4992-974b-c37cd12a9570.svg#ed4d3c45-af64-4992-974b-c37cd12a9570") format("svg"); }
+
+* html {
+  font-size: 87.5%; }
+
+html {
+  font-size: 14px;
+  line-height: 1.42857em; }
+
+/**
+ * $BASE-TYPOGRAPHY
+ */
+html, body {
+  font-family: "AvenirNextLTW01-Regular";
+  color: #182923; }
+
+/**
+ * $LINKS
+ */
+a {
+  color: #c56949;
+  text-decoration: none; }
+  a:visited {
+    color: #c56949; }
+  a:focus {
+    color: #b12f18; }
+  a:hover {
+    color: #b12f18; }
+  a:active {
+    color: #e1b49e; }
+
+strong {
+  font-family: "Avenir Next LT W04 Bold"; }
+
+strong em, em strong {
+  font-family: "Avenir Next LT W02SC Bold It"; }
+
+em {
+  font-family: "AvenirNextLTW01-Italic"; }
+
+.node--colorbox h2 {
+  margin-bottom: 2em; }
+
+.node--colorbox a {
+  color: #b12f18;
+  font-family: "Avenir Next LT W04 Bold"; }
+
+.node--colorbox li {
+  list-style: outside;
+  list-style-type: circle; }
+
+/**
+ * $HEADINGS
+ */
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta, caption,
+h5, .epsilon,
+h6, .zeta {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.28571em;
+  color: #67af9b;
+  font-family: "AvenirNextLTW01-Regular";
+  text-transform: none; }
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  color: #c56949; }
+
+h1, .alpha {
+  font-size: 25px;
+  font-size: 1.78571rem; }
+
+h2, .beta {
+  font-size: 34px;
+  font-size: 2.42857rem; }
+
+h3, .gamma {
+  font-size: 21px;
+  font-size: 1.5rem; }
+
+h4, .delta, caption {
+  font-size: 18px;
+  font-size: 1.28571rem; }
+
+h5, .epsilon {
+  font-size: 16px;
+  font-size: 1.14286rem; }
+
+h6, .zeta {
+  font-size: 16px;
+  font-size: 1.14286rem; }
+
+/**
+ * $PARAGRAPHS
+ */
+p,
+blockquote {
+  margin: 0;
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 1.42857em; }
+
+p + img {
+  float: left;
+  margin-right: 1em; }
+
+/**
+ * $QUOTES
+ */
+blockquote {
+  margin-top: 0em;
+  padding-top: 1.42857em;
+  padding-bottom: 1.42857em;
+  margin-bottom: 1.42857em;
+  padding: 0 1.5em;
+  border-style: solid;
+  border-width: 0.07143em;
+  padding: 1.35714em;
+  border-left-style: solid;
+  border-left-width: 0.71429em;
+  padding-left: 0.71429em;
+  font-style: italic; }
+  blockquote p {
+    margin: 0; }
+
+q {
+  font-style: italic; }
+
+/**
+ * $MARKS
+ */
+mark,
+.marker {
+  padding: 0.1em 0.5em;
+  color: #fff;
+  font-size: 12px;
+  font-size: 0.85714rem;
+  text-transform: capitalize;
+  border-radius: 10px; }
+
+/* SIDEBAR CHAPTER MENU VIEW */
+.l-region--sidebar-second .views-field-title {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background: #d6e7e1; }
+
+.l-region--sidebar-second .views-field-title a {
+  display: block;
+  padding-left: 22px;
+  text-indent: -22px; }
+
 .l-region--header #logo img {
   max-width: 500px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000320}}
 .l-content {
   padding-top: 50px;
   width: 49.15254%;
@@ -20,7 +434,6 @@
   margin-left: 16.94915%;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000324}}
 .l-region--sidebar-second {
   width: 23.72881%;
   float: left;
@@ -28,59 +441,46 @@
   margin-left: 67.79661%;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000328}}
 .l-region--sidebar-second .panel-pane {
   padding: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000331}}
 .l-region--sidebar-second .pane-node header {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000335}}
 .l-region--sidebar-second .pane-node .pane-title {
   padding-top: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000339}}
 .l-region--sidebar-second .pane-title.ctools-collapsible-handle {
   background: #e6ece5;
   padding: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000344}}
 .l-region--sidebar-second .webform-client-form {
   padding: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000348}}
 .l-region--sidebar-second .pane-title.ctools-collapsible-handle:hover {
   background: #d6e7e1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000352}}
 .l-region--sidebar-second .ctools-collapsible-container {
   background: #e6ece5; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000356}}
 .l-content .pane-node-body {
   padding-top: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000361}}
 .node-type-book .l-footer p {
   color: white;
   font-family: "AvenirNextLTW01-Medium";
   line-height: 1.5em;
   display: inherit;
   padding: 15px 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
   border-radius: 0;
   background: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000372}}
 .field--name-body h4 {
   font-size: 21px;
-  font-size: 1.3125rem;
+  font-size: 1.5rem;
   padding-bottom: 20px; }
 
 /* SIDEBAR CHAPTER MENU */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000381}}
 .page-node-22 .l-header,
 .page-node-23 .l-header,
 .page-node-24 .l-header,
@@ -92,7 +492,6 @@
 .page-node-49 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-onehead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\0000394}}
 .page-node-29 .l-header,
 .page-node-30 .l-header,
 .page-node-31 .l-header,
@@ -100,7 +499,6 @@
 .page-node-33 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-twohead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003103}}
 .page-node-34 .l-header,
 .page-node-35 .l-header,
 .page-node-36 .l-header,
@@ -109,7 +507,6 @@
 .page-node-39 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-threehead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003113}}
 .page-node-40 .l-header,
 .page-node-41 .l-header,
 .page-node-42 .l-header,
@@ -121,7 +518,6 @@
 .page-node-48 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-fourhead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003125}}
 .page-node-70 .l-header,
 .page-node-71 .l-header,
 .page-node-72 .l-header,
@@ -131,7 +527,6 @@
 .page-node-76 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-fivehead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003135}}
 .page-node-50 .l-header,
 .page-node-51 .l-header,
 .page-node-52 .l-header,
@@ -140,7 +535,6 @@
 .page-node-55 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-sixhead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003144}}
 .page-node-56 .l-header,
 .page-node-57 .l-header,
 .page-node-58 .l-header,
@@ -151,7 +545,6 @@
 .page-node-63 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-sevenhead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003155}}
 .page-node-64 .l-header,
 .page-node-65 .l-header,
 .page-node-66 .l-header,
@@ -160,7 +553,6 @@
 .page-node-69 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-eighthead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003164}}
 .page-node-77 .l-header,
 .page-node-78 .l-header,
 .page-node-79 .l-header,
@@ -169,7 +561,6 @@
 .page-node-82 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-ninehead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003172}}
 .page-node-77 .l-header,
 .page-node-78 .l-header,
 .page-node-79 .l-header,
@@ -178,7 +569,6 @@
 .page-node-82 .l-header {
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-ninehead.jpg) no-repeat center center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003181}}
 .page-node-88 .l-header,
 .page-node-89 .l-header,
 .page-node-90 .l-header,
@@ -187,54 +577,44 @@
   background: url(/sites/all/themes/foodbytes/images/chapters/headers/ch-tenhead.jpg) no-repeat center center; }
 
 /* SPECIFIC NODE STUFF */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003192}}
 .pane-node-title h2 {
   margin-bottom: 1em; }
 
 /**
  * QUICK REFERENCE BOXES
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003202}}
 .qrt .red {
   color: #b12f18;
   font-family: "AvenirNextLTW01-Medium"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003206}}
 .qrt .green {
   color: #67af9b;
   font-family: "AvenirNextLTW01-Medium"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003212}}
 .l-content .field__item .qrb {
   background-color: #e6ece5;
   padding: 5%;
   width: 90%;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003218}}
 .l-content .field__item .qrb ul li {
   margin-bottom: 0.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003222}}
 table.qrb {
   background-color: #e6ece5; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003226}}
 .l-content .field__item table ul li {
   margin-bottom: 0.25em;
   font-family: "Avenir Next LT W04 Bold"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003231}}
 .l-content .field__item table ul li > ul li {
   margin-bottom: 0.1em;
   font-family: "AvenirNextLTW01-Regular";
   font-size: 0.8em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003237}}
 .l-content .field__item table ul li > ul {
   margin: 0 0 0 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003241}}
 .field__item div div.green25 {
   background-color: #d6e7e1;
   padding: 5%;
@@ -244,13 +624,11 @@ table.qrb {
   line-height: 1.3em;
   text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003251}}
 .field__item div div.green25 ul li {
   text-align: left;
   margin-bottom: 0.5em;
   font-size: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003257}}
 .field__item div table div.green25 {
   background-color: #d6e7e1;
   padding: 9%;
@@ -259,7 +637,6 @@ table.qrb {
   border: 1px solid #ffffff;
   line-height: 1.3em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003266}}
 .field__item div div.green50,
 .field__item div table div.green50 {
   background-color: #67af9b;
@@ -272,48 +649,39 @@ table.qrb {
   line-height: 1.3em; }
 
 /* COLLAPSING FIELDS */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003281}}
 .field__item a, .field__item a:visited {
   color: #b12f18; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003285}}
 .field__item h3 {
   cursor: pointer;
   padding: 10px 10px 10px 60px;
   background: #e6ece5 url(/sites/all/themes/foodbytes/images/chapters/collapse-arrow.png) no-repeat top left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003291}}
 .field__item h3:hover {
   background: #d6e7e1 url(/sites/all/themes/foodbytes/images/chapters/collapse-arrow.png) no-repeat top left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003295}}
 .field__item h3.expanded {
   cursor: pointer;
   padding: 10px 10px 10px 60px;
   background: #e6ece5 url(/sites/all/themes/foodbytes/images/chapters/collapse-arrow.png) no-repeat bottom left; }
 
 /* AND IN THE SIDEBAR */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003303}}
 .l-region--sidebar-second .field__item h3 {
   cursor: pointer;
   padding: 5px 5px 5px 30px;
   background: url(/sites/all/themes/foodbytes/images/openclosesidebar.png) no-repeat left 8px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003308}}
 .l-region--sidebar-second .field__item h3 strong {
   font-size: 0.666em !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003312}}
 .l-region--sidebar-second .field__item h3:hover {
   background: url(/sites/all/themes/foodbytes/images/openclosesidebar.png) no-repeat left 8px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003316}}
 .l-region--sidebar-second .field__item h3.expanded {
   cursor: pointer;
   padding: 5px 5px 5px 30px;
   background: url(/sites/all/themes/foodbytes/images/openclosesidebar.png) no-repeat left -177px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003325}}
 .field--type-field-sections h4 {
   background: none;
   border-bottom: 2px solid #e6ece5;
@@ -321,106 +689,85 @@ table.qrb {
   margin: 1em 0;
   font-family: "AvenirNextLTW01-Medium"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003333}}
 .field--name-body .field__item div {
   border: none;
   padding: 0;
   margin: 0 0 20px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003339}}
 .field__item div {
   border: 1px solid #e6ece5;
   padding: 20px;
   margin-bottom: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003345}}
 .field__item div div {
   border: none;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003352}}
 .field--name-field-sub-section {
   padding: 20px 0 30px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003355}}
 .field--name-field-sub-section h3 {
   padding: 0 0 30px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003360}}
 .field__item div h3 {
   background: transparent url(/sites/all/themes/foodbytes/images/figfigsm.png) no-repeat 5px 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003363}}
 .field__item div img {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003367}}
 .field__item ul {
   margin: 0;
   padding: 5px 0 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003371}}
 .field__item ul li {
   list-style: square;
   line-height: 1.2em;
   margin: 0 0 5px 15px;
   padding: 0 0 10px 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003377}}
 .field__item ul li li {
   list-style: circle;
   margin: 0 0 0 15px;
   padding: 5px 0 5px 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003383}}
 .l-region--sidebar-second {
   background: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003387}}
 .l-region--sidebar-second h2 {
   font-size: 1.2em;
   font-family: "AvenirNextLTW01-Medium";
   padding-bottom: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003394}}
 .l-region--sidebar-second ol li {
   list-style: decimal;
   margin-left: 15px;
   padding: 0 0 15px 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003400}}
 .node-type-chapter-child-page .pane-page-tabs {
   float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003404}}
 .node-type-chapter-child-page .pane-node-title {
   clear: left; }
 
 /* NAVIGATION FOR BOOK PAGES */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003410}}
 #booknavtop .pane-node-book-nav {
   padding: 10px 0 20px 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003414}}
 .pane-node-book-nav {
   padding: 10px 0 45px;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003419}}
 .book-navigation {
   float: left;
   margin-right: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003424}}
 .book-navigation a {
   color: #ffffff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003427}}
 .book-navigation a:hover, .book-navigation a:visited {
   color: #ffffff; }
 
 /* AT THE TOP */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003433}}
 #chome {
   float: left;
   width: 30px;
@@ -428,7 +775,6 @@ table.qrb {
   padding: 10px 0 20px 10px;
   margin-right: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003440}}
 #chome p a {
   text-indent: -5000px;
   float: left;
@@ -437,11 +783,9 @@ table.qrb {
   padding: 5px;
   background: #d6e7e1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003448}}
 #chome p a:hover {
   background: #67af9b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003452}}
 #booknavtop .book-navigation a {
   display: block;
   text-indent: -5000px;
@@ -450,7 +794,6 @@ table.qrb {
   padding: 5px; }
 
 /* AND THE REST */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003462}}
 #nextchapter {
   display: block;
   background: #d6e7e1 url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px -45px;
@@ -458,23 +801,18 @@ table.qrb {
   margin: 10px 0 0 15px;
   padding: 5px 5px 5px 25px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003470}}
 #nextchapter:hover {
   background: #67af9b url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px -45px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003474}}
 #nextchapter p {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003478}}
 #nextchapter p a:hover {
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003482}}
 #nextchapter p a {
   color: #182923; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003487}}
 .book-navigation .page-up {
   display: block;
   background: #d6e7e1 url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px 5px;
@@ -482,30 +820,24 @@ table.qrb {
   margin-right: 15px;
   padding: 8px 5px 8px 25px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003494}}
 #booknavtop .book-navigation .page-up {
   background-position: 5px 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003499}}
 .book-navigation .page-up:hover {
   background-color: #67af9b; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003502}}
 .book-navigation .page-next {
   display: block;
   background: #67af9b url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px -45px;
   float: left;
   padding: 8px 5px 8px 25px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003509}}
 #booknavtop .book-navigation .page-next {
   background-position: 5px -45px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003513}}
 .book-navigation .page-next:hover {
   background-color: #182923; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003516}}
 .book-navigation .page-previous {
   display: block;
   background: #67af9b url(/sites/all/themes/foodbytes/images/up-on-back.png) no-repeat 2px -95px;
@@ -513,10 +845,10 @@ table.qrb {
   margin-right: 15px;
   padding: 8px 5px 8px 25px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003523}}
 #booknavtop .book-navigation .page-previous {
   background-position: 5px -95px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/clients\/client1\/web2\/web\/sites\/all\/themes\/foodbytes\/sass\/layouts\/chapterchild\/chapterchild\.layout\.scss}line{font-family:\00003528}}
 .book-navigation .page-previous:hover {
   background-color: #182923; }
+
+/*# sourceMappingURL=chapterchild.layout.css.map */
